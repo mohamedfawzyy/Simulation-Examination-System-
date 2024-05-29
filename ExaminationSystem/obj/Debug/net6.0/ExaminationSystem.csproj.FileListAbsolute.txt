@@ -1,0 +1,14 @@
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.AssemblyInfoInputs.cache
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.AssemblyInfo.cs
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.csproj.CoreCompileInputs.cache
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\bin\Debug\net6.0\ExaminationSystem.exe
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\bin\Debug\net6.0\ExaminationSystem.deps.json
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\bin\Debug\net6.0\ExaminationSystem.runtimeconfig.json
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\bin\Debug\net6.0\ExaminationSystem.dll
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\bin\Debug\net6.0\ExaminationSystem.pdb
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.dll
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\refint\ExaminationSystem.dll
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.pdb
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.genruntimeconfig.cache
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ref\ExaminationSystem.dll
