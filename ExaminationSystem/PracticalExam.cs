@@ -15,7 +15,7 @@ namespace ExaminationSystem
             throw new NotImplementedException();
         }
 
-        public override BaseExam ShowExam()
+        public override void ShowExam()
         {
             throw new NotImplementedException();
         }

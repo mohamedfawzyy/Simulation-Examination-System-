@@ -34,6 +34,8 @@ namespace ExaminationSystem
             return Exam;
         }
 
+
+
         //set properties of exam
         private void IntializeExamProperties(BaseExam baseExam) {
             int Minutes, NumbersOfQuestions;
@@ -45,7 +47,7 @@ namespace ExaminationSystem
             } while (!flag1);
             do
             {
-                Console.Write("Please Enter The Time Of Questions you wanted To Create ex(2): ");
+                Console.Write("Please Enter The number Of Questions you wanted To Create ex(2): ");
                 flag2 = int.TryParse(Console.ReadLine(), out NumbersOfQuestions);
             } while (!flag2);
 

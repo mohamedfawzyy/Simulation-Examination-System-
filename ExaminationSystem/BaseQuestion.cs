@@ -16,6 +16,7 @@ namespace ExaminationSystem
         public double Mark { get; set; }
 
         public Answer RightAnswer { get; set; }
+        public Answer UserAnswer { get; set; }
 
         protected BaseQuestion(string questionHeader)
         {

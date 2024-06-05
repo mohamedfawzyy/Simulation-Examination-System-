@@ -12,3 +12,4 @@ D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\Examinat
 D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.pdb
 D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.genruntimeconfig.cache
 D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ref\ExaminationSystem.dll
+D:\engineering terms\front-end-engineer\Route\backend\Assignments\Exams\ExaminationSystem\ExaminationSystem\obj\Debug\net6.0\ExaminationSystem.sourcelink.json
