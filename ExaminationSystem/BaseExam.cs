@@ -14,6 +14,8 @@ namespace ExaminationSystem
         public double Grade { get; set; }
         public List<McqQuestion> McqQuestions { get; set; } = new List<McqQuestion>();
 
+        
+
         public abstract void ShowExam();
         public abstract void CreateExamQuestions();
 
@@ -43,8 +45,6 @@ namespace ExaminationSystem
             return McqQuestion;
 
         }
-
-
         private void CreateMCQOptions(McqQuestion mcqQuestion) {
             if (mcqQuestion == null) return;
             Console.WriteLine("The Choices of Questions");
@@ -54,6 +54,26 @@ namespace ExaminationSystem
                 mcqQuestion.answersOptions[i]=new Answer();
                 mcqQuestion.answersOptions[i].AnswerId = i+1;
                 mcqQuestion.answersOptions[i].AnswerText = Console.ReadLine();
+            }
+
+        }
+
+        public void ShowAnswers(List<TFQuestion> tFQuestions , List<McqQuestion> mcqQuestions) {
+
+            Console.Clear();
+            int AnswersNum = 0;
+            
+            if (tFQuestions is not null && tFQuestions.Count() > 0) {
+                foreach(TFQuestion t in tFQuestions) {
+                    Console.WriteLine($"Q{++AnswersNum})\t\t {t.QuestionBody}:{t.UserAnswer.AnswerText}");
+                }
+            }
+            if (mcqQuestions is not null && mcqQuestions.Count() > 0)
+            {
+                foreach (McqQuestion t in mcqQuestions)
+                {
+                    Console.WriteLine($"Q{++AnswersNum})\t\t {t.QuestionBody}:{t.UserAnswer.AnswerText}");
+                }
             }
 
         }

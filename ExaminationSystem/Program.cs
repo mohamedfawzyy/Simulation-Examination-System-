@@ -10,7 +10,7 @@
             Console.Write("Do you want to Start Exam(y|n): ");
 
             if (char.Parse(Console.ReadLine()) == 'y') { 
-            
+                Console.Clear() ;   
                 subject.Exam.ShowExam();
             }
         

@@ -49,6 +49,7 @@ namespace ExaminationSystem
             {
                 Console.Write("Please Enter The number Of Questions you wanted To Create ex(2): ");
                 flag2 = int.TryParse(Console.ReadLine(), out NumbersOfQuestions);
+            
             } while (!flag2);
 
             baseExam.NumOfQuestions = NumbersOfQuestions;
