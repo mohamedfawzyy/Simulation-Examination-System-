@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -58,13 +59,15 @@ namespace ExaminationSystem
 
         }
 
-        public void ShowAnswers(List<TFQuestion> tFQuestions , List<McqQuestion> mcqQuestions) {
+        public void ShowAnswers(List<TFQuestion> tFQuestions , List<McqQuestion> mcqQuestions,string type) {
 
             Console.Clear();
             int AnswersNum = 0;
+            double totalMarks = 0;
             
             if (tFQuestions is not null && tFQuestions.Count() > 0) {
                 foreach(TFQuestion t in tFQuestions) {
+                    totalMarks += t.Mark;
                     Console.WriteLine($"Q{++AnswersNum})\t\t {t.QuestionBody}:{t.UserAnswer.AnswerText}");
                 }
             }
@@ -72,9 +75,14 @@ namespace ExaminationSystem
             {
                 foreach (McqQuestion t in mcqQuestions)
                 {
+                    totalMarks += t.Mark;
                     Console.WriteLine($"Q{++AnswersNum})\t\t {t.QuestionBody}:{t.UserAnswer.AnswerText}");
                 }
             }
+           
+            if(type.ToLower() == "finalexam".ToLower())
+                Console.WriteLine($"your Exam Grade is {this.Grade} from {totalMarks}");
+
 
         }
             

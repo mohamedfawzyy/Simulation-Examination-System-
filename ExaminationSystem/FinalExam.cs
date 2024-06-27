@@ -111,7 +111,7 @@ namespace ExaminationSystem
                     }
                 }
             }
-            this.ShowAnswers(this.TFQuestions,this.McqQuestions);
+            this.ShowAnswers(this.TFQuestions,this.McqQuestions,"finalExam");
         }
     }
 }
